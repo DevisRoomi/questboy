@@ -1,0 +1,25 @@
+{
+  "name": "questboy",
+  "version": "1.0.0",
+  "description": "🎮 Playful gamified quest & habit tracker built with Bun, Hono, Vue 3, TanStack Query & JWT auth. Pastel cartoon boyish aesthetic.",
+  "scripts": {
+    "dev": "bun --filter \"*\" dev",
+    "dev:backend": "cd backend && bun run src/index.ts",
+    "dev:frontend": "cd frontend && bun run dev",
+    "build": "cd frontend && bun run build",
+    "test": "cd backend && bun test"
+  },
+  "keywords": [
+    "bun",
+    "hono",
+    "vue3",
+    "typescript",
+    "tanstack-query",
+    "jwt",
+    "gamification",
+    "flyenv",
+    "laravel-herd"
+  ],
+  "author": "DevisRoomi",
+  "license": "MIT"
+}
